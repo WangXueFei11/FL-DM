@@ -1,0 +1,121 @@
+[2025-03-06 17:06:10,791][fed_main.py][line:40][INFO] Iteration=100
+[2025-03-06 17:06:10,795][fed_main.py][line:40][INFO] Iteration_g=20
+[2025-03-06 17:06:10,795][fed_main.py][line:40][INFO] avg_w=False
+[2025-03-06 17:06:10,795][fed_main.py][line:40][INFO] batch_real=256
+[2025-03-06 17:06:10,795][fed_main.py][line:40][INFO] batch_syn=None
+[2025-03-06 17:06:10,795][fed_main.py][line:40][INFO] batch_test=128
+[2025-03-06 17:06:10,796][fed_main.py][line:40][INFO] batch_train=256
+[2025-03-06 17:06:10,813][fed_main.py][line:40][INFO] beta=0.5
+[2025-03-06 17:06:10,813][fed_main.py][line:40][INFO] bias=0.1
+[2025-03-06 17:06:10,813][fed_main.py][line:40][INFO] buffer_path=./buffers
+[2025-03-06 17:06:10,813][fed_main.py][line:40][INFO] client_method=DM
+[2025-03-06 17:06:10,813][fed_main.py][line:40][INFO] data_path=./data
+[2025-03-06 17:06:10,813][fed_main.py][line:40][INFO] dataset=CIFAR10
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] depth=5
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] dis_metric=ours
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] dsa=True
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] dsa_strategy=color_crop_cutout_flip_scale_rotate
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] epoch_eval_train=1000
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] eval_all=False
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] eval_it=100
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] eval_mode=CIFAR
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] expert_epochs=3
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] fedDM=False
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] force_save=False
+[2025-03-06 17:06:10,814][fed_main.py][line:40][INFO] frac=1.0
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] gpu=0
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] idc_factor=1
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] inner_loop=1000
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] ipc=10
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] layer=5
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] learn_g=False
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] learn_g_after=0
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] learn_model=False
+[2025-03-06 17:06:10,816][fed_main.py][line:40][INFO] load_all=False
+[2025-03-06 17:06:10,817][fed_main.py][line:40][INFO] local_rank=0
+[2025-03-06 17:06:10,817][fed_main.py][line:40][INFO] logdir=./logged_files
+[2025-03-06 17:06:10,817][fed_main.py][line:40][INFO] lr_g=0.001
+[2025-03-06 17:06:10,817][fed_main.py][line:40][INFO] lr_img=1000
+[2025-03-06 17:06:10,817][fed_main.py][line:40][INFO] lr_lr=1e-05
+[2025-03-06 17:06:10,817][fed_main.py][line:40][INFO] lr_net=0.01
+[2025-03-06 17:06:10,817][fed_main.py][line:40][INFO] lr_teacher=0.01
+[2025-03-06 17:06:10,818][fed_main.py][line:40][INFO] lr_w=1
+[2025-03-06 17:06:10,818][fed_main.py][line:40][INFO] max_experts=None
+[2025-03-06 17:06:10,818][fed_main.py][line:40][INFO] max_files=None
+[2025-03-06 17:06:10,818][fed_main.py][line:40][INFO] max_start_epoch=5
+[2025-03-06 17:06:10,818][fed_main.py][line:40][INFO] min_it=False
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] model=ConvNet
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] mom_img=0.5
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] no_aug=False
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] not_save_file=False
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] num_eval=3
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] nworkers=10
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] outer_loop=1
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] pix_init=noise
+[2025-03-06 17:06:10,819][fed_main.py][line:40][INFO] rand_f=False
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] rand_gan_con=False
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] rand_gan_un=False
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] recover=False
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] recover_round=5
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] reg=1e-05
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] res=128
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] round=20
+[2025-03-06 17:06:10,820][fed_main.py][line:40][INFO] save_all=False
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] save_it=None
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] save_path=result
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] saved_model_dir=./logged_files
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] sg_batch=10
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] space=wp
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] special_gan=None
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] syn_steps=20
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] update_g_interval=1
+[2025-03-06 17:06:10,821][fed_main.py][line:40][INFO] wait_eval=False
+[2025-03-06 17:06:10,822][fed_main.py][line:40][INFO] width=128
+[2025-03-06 17:06:10,822][fed_main.py][line:41][INFO] fed_main.py --dataset=CIFAR10 --space=wp --layer=5 --data_path=./data --eval_mode CIFAR --beta 0.5 --batch_real 256 --batch_train 256 --batch_test 128 --ipc=10 --nworkers 10 --round 20 --Iteration 100 --Iteration_g 20
+[2025-03-06 17:06:10,879][distributed_c10d.py][line:217][INFO] Added key: store_based_barrier_key:1 to store for rank: 0
+[2025-03-06 17:06:10,879][distributed_c10d.py][line:251][INFO] Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+[2025-03-06 17:06:28,525][clients.py][line:25][INFO] 0  9 [0 1 3 4 5 6 7 8 9]
+[2025-03-06 17:06:28,532][clients.py][line:25][INFO] 1  9 [0 1 2 3 4 5 6 7 9]
+[2025-03-06 17:06:28,538][clients.py][line:25][INFO] 2  8 [0 1 2 4 6 7 8 9]
+[2025-03-06 17:06:28,544][clients.py][line:25][INFO] 3  10 [0 1 2 3 4 5 6 7 8 9]
+[2025-03-06 17:06:28,549][clients.py][line:25][INFO] 4  9 [0 1 2 3 4 5 7 8 9]
+[2025-03-06 17:06:28,556][clients.py][line:25][INFO] 5  9 [0 1 2 3 5 6 7 8 9]
+[2025-03-06 17:06:28,563][clients.py][line:25][INFO] 6  7 [0 1 2 3 4 5 6]
+[2025-03-06 17:06:28,568][clients.py][line:25][INFO] 7  10 [0 1 2 3 4 5 6 7 8 9]
+[2025-03-06 17:06:28,576][clients.py][line:25][INFO] 8  8 [1 2 3 4 5 6 7 8]
+[2025-03-06 17:06:28,583][clients.py][line:25][INFO] 9  8 [0 1 2 3 5 6 7 8]
+[2025-03-06 17:06:30,496][fed_main.py][line:163][INFO] ================================================== Round: 0 ==================================================
+[2025-03-06 17:06:30,497][fed_main.py][line:169][INFO] 
+Choosing users 0 3 9 4 6 7 2 5 1 8
+[2025-03-06 17:06:33,380][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:06:43,997][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:06:58,343][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:07:14,827][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:07:23,844][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:07:38,184][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:07:51,859][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:08:03,383][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:08:16,577][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:08:33,831][distributed.py][line:874][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-03-06 17:08:47,934][fed_main.py][line:185][INFO] fed_main.py --dataset=CIFAR10 --space=wp --layer=5 --data_path=./data --eval_mode CIFAR --beta 0.5 --batch_real 256 --batch_train 256 --batch_test 128 --ipc=10 --nworkers 10 --round 20 --Iteration 100 --Iteration_g 20
+[2025-03-06 17:08:47,934][fed_main.py][line:187][INFO] 
+Choosing users 0 3 9 4 6 7 2 5 1 8
+[2025-03-06 17:08:47,934][fed_main.py][line:188][INFO] ================================================== Client: 0 ==================================================
+[2025-03-06 17:09:00,716][server_update.py][line:246][INFO] [2025-03-06 17:09:00] iter = 0000, loss = 1.0180
+[2025-03-06 17:11:42,767][server_update.py][line:246][INFO] [2025-03-06 17:11:42] iter = 0010, loss = 1.0155
+[2025-03-06 17:14:24,189][server_update.py][line:246][INFO] [2025-03-06 17:14:24] iter = 0020, loss = 1.0131
+[2025-03-06 17:17:04,593][server_update.py][line:246][INFO] [2025-03-06 17:17:04] iter = 0030, loss = 1.0103
+[2025-03-06 17:19:47,923][server_update.py][line:246][INFO] [2025-03-06 17:19:47] iter = 0040, loss = 1.0081
+[2025-03-06 17:22:32,634][server_update.py][line:246][INFO] [2025-03-06 17:22:32] iter = 0050, loss = 1.0063
+[2025-03-06 17:25:18,483][server_update.py][line:246][INFO] [2025-03-06 17:25:18] iter = 0060, loss = 1.0046
+[2025-03-06 17:28:01,237][server_update.py][line:246][INFO] [2025-03-06 17:28:01] iter = 0070, loss = 1.0031
+[2025-03-06 17:30:43,422][server_update.py][line:246][INFO] [2025-03-06 17:30:43] iter = 0080, loss = 1.0028
+[2025-03-06 17:33:26,752][server_update.py][line:246][INFO] [2025-03-06 17:33:26] iter = 0090, loss = 1.0018
+[2025-03-06 17:36:10,847][server_update.py][line:246][INFO] [2025-03-06 17:36:10] iter = 0100, loss = 1.0011
+[2025-03-06 17:36:10,879][fed_main.py][line:185][INFO] fed_main.py --dataset=CIFAR10 --space=wp --layer=5 --data_path=./data --eval_mode CIFAR --beta 0.5 --batch_real 256 --batch_train 256 --batch_test 128 --ipc=10 --nworkers 10 --round 20 --Iteration 100 --Iteration_g 20
+[2025-03-06 17:36:10,879][fed_main.py][line:187][INFO] 
+Choosing users 0 3 9 4 6 7 2 5 1 8
+[2025-03-06 17:36:10,880][fed_main.py][line:188][INFO] ================================================== Client: 3 ==================================================
+[2025-03-06 17:36:16,629][server_update.py][line:246][INFO] [2025-03-06 17:36:16] iter = 0000, loss = 0.9246
+[2025-03-06 17:39:01,598][server_update.py][line:246][INFO] [2025-03-06 17:39:01] iter = 0010, loss = 0.9200
+[2025-03-06 17:41:54,687][server_update.py][line:246][INFO] [2025-03-06 17:41:54] iter = 0020, loss = 0.9140
