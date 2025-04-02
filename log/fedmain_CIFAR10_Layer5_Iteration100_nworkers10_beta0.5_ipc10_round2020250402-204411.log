@@ -1,0 +1,103 @@
+[2025-04-02 20:44:11,775][fed_main.py][line:43][INFO] Iteration=100
+[2025-04-02 20:44:11,775][fed_main.py][line:43][INFO] Iteration_g=20
+[2025-04-02 20:44:11,775][fed_main.py][line:43][INFO] avg_w=False
+[2025-04-02 20:44:11,775][fed_main.py][line:43][INFO] batch_real=256
+[2025-04-02 20:44:11,775][fed_main.py][line:43][INFO] batch_syn=None
+[2025-04-02 20:44:11,775][fed_main.py][line:43][INFO] batch_test=128
+[2025-04-02 20:44:11,775][fed_main.py][line:43][INFO] batch_train=256
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] beta=0.5
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] bias=0.1
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] buffer_path=./buffers
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] client_method=DM
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] data_path=./data
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] dataset=CIFAR10
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] depth=5
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] dis_metric=ours
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] dsa=True
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] dsa_strategy=color_crop_cutout_flip_scale_rotate
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] epoch_eval_train=1000
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] eval_all=False
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] eval_it=100
+[2025-04-02 20:44:11,791][fed_main.py][line:43][INFO] eval_mode=CIFAR
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] expert_epochs=3
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] fedDM=False
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] force_save=False
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] frac=1.0
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] gpu=0
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] idc_factor=1
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] inner_loop=1000
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] ipc=10
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] layer=5
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] learn_g=False
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] learn_g_after=0
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] learn_model=False
+[2025-04-02 20:44:11,795][fed_main.py][line:43][INFO] load_all=False
+[2025-04-02 20:44:11,796][fed_main.py][line:43][INFO] local_rank=0
+[2025-04-02 20:44:11,796][fed_main.py][line:43][INFO] logdir=./logged_files
+[2025-04-02 20:44:11,796][fed_main.py][line:43][INFO] lr_g=0.001
+[2025-04-02 20:44:11,796][fed_main.py][line:43][INFO] lr_img=1000
+[2025-04-02 20:44:11,796][fed_main.py][line:43][INFO] lr_lr=1e-05
+[2025-04-02 20:44:11,797][fed_main.py][line:43][INFO] lr_net=0.01
+[2025-04-02 20:44:11,797][fed_main.py][line:43][INFO] lr_teacher=0.01
+[2025-04-02 20:44:11,797][fed_main.py][line:43][INFO] lr_w=1
+[2025-04-02 20:44:11,797][fed_main.py][line:43][INFO] max_experts=None
+[2025-04-02 20:44:11,797][fed_main.py][line:43][INFO] max_files=None
+[2025-04-02 20:44:11,797][fed_main.py][line:43][INFO] max_start_epoch=5
+[2025-04-02 20:44:11,797][fed_main.py][line:43][INFO] min_it=False
+[2025-04-02 20:44:11,798][fed_main.py][line:43][INFO] model=ConvNet
+[2025-04-02 20:44:11,798][fed_main.py][line:43][INFO] mom_img=0.5
+[2025-04-02 20:44:11,798][fed_main.py][line:43][INFO] no_aug=False
+[2025-04-02 20:44:11,798][fed_main.py][line:43][INFO] not_save_file=False
+[2025-04-02 20:44:11,798][fed_main.py][line:43][INFO] num_eval=3
+[2025-04-02 20:44:11,798][fed_main.py][line:43][INFO] nworkers=10
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] outer_loop=1
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] pix_init=noise
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] rand_f=False
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] rand_gan_con=False
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] rand_gan_un=False
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] recover=False
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] recover_round=5
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] reg=1e-05
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] res=128
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] round=20
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] save_all=False
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] save_it=None
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] save_path=result
+[2025-04-02 20:44:11,799][fed_main.py][line:43][INFO] saved_model_dir=./logged_files
+[2025-04-02 20:44:11,802][fed_main.py][line:43][INFO] sg_batch=10
+[2025-04-02 20:44:11,802][fed_main.py][line:43][INFO] space=wp
+[2025-04-02 20:44:11,802][fed_main.py][line:43][INFO] special_gan=None
+[2025-04-02 20:44:11,802][fed_main.py][line:43][INFO] syn_steps=20
+[2025-04-02 20:44:11,802][fed_main.py][line:43][INFO] update_g_interval=1
+[2025-04-02 20:44:11,802][fed_main.py][line:43][INFO] wait_eval=False
+[2025-04-02 20:44:11,802][fed_main.py][line:43][INFO] width=128
+[2025-04-02 20:44:11,802][fed_main.py][line:45][INFO] fed_main.py --dataset=CIFAR10 --space=wp --layer=5 --data_path=./data --eval_mode CIFAR --beta 0.5 --batch_real 256 --batch_train 256 --batch_test 128 --ipc=10 --nworkers 10 --round 20 --Iteration 100 --Iteration_g 20
+[2025-04-02 20:44:11,844][distributed_c10d.py][line:196][INFO] Added key: store_based_barrier_key:1 to store for rank: 0
+[2025-04-02 20:44:11,846][distributed_c10d.py][line:226][INFO] Rank 0: Completed store-based barrier for 1 nodes.
+[2025-04-02 20:44:25,540][clients.py][line:25][INFO] 0  9 [0 1 3 4 5 6 7 8 9]
+[2025-04-02 20:44:25,546][clients.py][line:25][INFO] 1  9 [0 1 2 3 4 5 6 7 9]
+[2025-04-02 20:44:25,554][clients.py][line:25][INFO] 2  8 [0 1 2 4 6 7 8 9]
+[2025-04-02 20:44:25,560][clients.py][line:25][INFO] 3  10 [0 1 2 3 4 5 6 7 8 9]
+[2025-04-02 20:44:25,568][clients.py][line:25][INFO] 4  9 [0 1 2 3 4 5 7 8 9]
+[2025-04-02 20:44:25,574][clients.py][line:25][INFO] 5  9 [0 1 2 3 5 6 7 8 9]
+[2025-04-02 20:44:25,581][clients.py][line:25][INFO] 6  7 [0 1 2 3 4 5 6]
+[2025-04-02 20:44:25,585][clients.py][line:25][INFO] 7  10 [0 1 2 3 4 5 6 7 8 9]
+[2025-04-02 20:44:25,593][clients.py][line:25][INFO] 8  8 [1 2 3 4 5 6 7 8]
+[2025-04-02 20:44:25,599][clients.py][line:25][INFO] 9  8 [0 1 2 3 5 6 7 8]
+[2025-04-02 20:44:27,935][fed_main.py][line:192][INFO] ================================================== Round: 0 ==================================================
+[2025-04-02 20:44:27,938][fed_main.py][line:202][INFO] 
+Choosing users 0 3 9 4 6 7 2 5 1 8
+[2025-04-02 20:44:29,874][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:44:40,276][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:44:54,035][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:45:10,288][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:45:18,719][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:45:32,404][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:45:45,572][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:45:56,798][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:46:09,930][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:46:26,499][distributed.py][line:788][INFO] Reducer buckets have been rebuilt in this iteration.
+[2025-04-02 20:46:40,629][fed_main.py][line:221][INFO] fed_main.py --dataset=CIFAR10 --space=wp --layer=5 --data_path=./data --eval_mode CIFAR --beta 0.5 --batch_real 256 --batch_train 256 --batch_test 128 --ipc=10 --nworkers 10 --round 20 --Iteration 100 --Iteration_g 20
+[2025-04-02 20:46:40,629][fed_main.py][line:223][INFO] 
+Choosing users 0 3 9 4 6 7 2 5 1 8
+[2025-04-02 20:46:40,629][fed_main.py][line:224][INFO] ================================================== Client: 0 ==================================================

@@ -1,1 +1,0 @@
-here put cifar-10 dataset.
